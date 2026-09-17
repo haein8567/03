@@ -1,5 +1,5 @@
 TARGET = program          # .exe 없음 (Windows는 program.exe)
-SRCS = example.c
+SRCS = main.c
 OBJS = $(SRCS:.c=.o)
 CC = gcc
 CFLAGS = -g -Wall

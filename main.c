@@ -3,7 +3,7 @@ int main(void)
     char c;
     int i;
 
-    printf("문자를 입력하세요: ");
+    printf("Input number: ");
     scanf("%c", &c);
 
     i= c - '0';
